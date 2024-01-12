@@ -1,3 +1,6 @@
+//!!!
+//함수 인자로 int arr[]하면 왜 오류가 나고, vector<int> arr로 하면 작동 되지,,?
+
 #include <bits/stdc++.h>
 using namespace std;
 
