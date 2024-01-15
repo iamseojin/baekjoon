@@ -20,8 +20,13 @@ int main()
 	cin >> N;
 	stack<int> front, end;
 	list<char> ans;
+	// string ans로 선언 -> 공간절약
+	// ans += "+\n";
+	// ans += "-\n"; 
+	// cout << ans;
+	
 	int x;
-	int* arr = new int[N];
+	int* arr = new int[N];	// 배열 선언 필요가 없는 구현 방식이 있었다,,
 	for (int i = 0; i < N; i++)
 		cin >> arr[i];
 
