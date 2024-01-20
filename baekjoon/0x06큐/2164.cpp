@@ -18,7 +18,8 @@ int main()
 	while (Q.size() != 1)
 	{
 		Q.pop();
-		if (Q.size() == 1) break;
+		//if (Q.size() == 1) break;
+		// 이 조건은 필요 없었넹
 		Q.push(Q.front());
 		Q.pop();
 	}
