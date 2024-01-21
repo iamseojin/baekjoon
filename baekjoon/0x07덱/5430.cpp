@@ -11,6 +11,8 @@
     []로 출력되어야하는데 아무것도 출력이 안된거였음
   -> 에러 발생 if (!isError)로 조건 변경
 */
+// reverse(dq.begin(), dq.end()); 
+// 이게 deque 뒤집는 stl 인듯
 
 #include <bits/stdc++.h>
 #include <iostream>
