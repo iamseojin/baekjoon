@@ -51,6 +51,7 @@ int main()
 			{
 				if (top) top = 0;
 				else top = 1;
+				// top = 1-top;
 			}
 			else
 			{
